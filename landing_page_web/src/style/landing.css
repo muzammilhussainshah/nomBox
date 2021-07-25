@@ -1,0 +1,59 @@
+
+
+body {
+  background: url(../assets/bg.jpg) no-repeat center center fixed  !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+
+
+@media (max-width:375px){
+  .row-margin-first-col,.row-margin-second-col{
+    /* background-color:green; */
+
+    margin-left: -10%;
+  }
+
+  .row-margin-second-col{
+    margin-left: 10%;
+    padding: 5% !important;
+  }
+  
+
+
+}
+
+
+@media (max-width:420px){
+  .row-margin-first-col{
+    margin-left: 6%;
+    /* background-color: red */
+  }
+  .rowStyle{
+    left: 6%;
+    right: 6%;
+  }
+  body {
+    background: url(../assets/bgForMob.jpg) no-repeat center center fixed  !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    height: 120vh;
+    /* height: 110vh; */
+    /* height: 100vh; */
+  }
+}
+
+ @media (min-width:421px){
+  .rowStyle{
+    left: 4%;
+    right: 16%;
+  }
+
+} 
+
+

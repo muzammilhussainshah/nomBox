@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Gibson-Regular' !important;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../public/fonts/Gibson-Regular.ttf') format('truetype');
+ }

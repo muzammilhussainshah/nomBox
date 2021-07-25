@@ -1,0 +1,11 @@
+const ActionTypes = {
+    USERNAME: 'USERNAME',
+    CURRENTUSER: 'CURRENTUSER',
+    ALLUSERS: 'ALLUSERS',
+    MESSAGES: 'MESSAGES',
+    CHANGERECPUID: 'CHANGERECPUID',
+    FORMSUCCESS: 'FORMSUCCESS',
+    TYPE: 'TYPE',
+}
+
+export default ActionTypes;

@@ -1,0 +1,183 @@
+.carousel .slide img {
+    max-height: 30px ;
+    background-color: "yellow";
+
+      /* change this to whatever you want */
+    width: auto;
+}
+/* .videoTag{
+    height: "200%";
+} */
+
+@media (max-width:450px){
+    .mobile_background{
+        
+  /* background-Color:pink; */
+        padding-Top: 15px;
+      
+        width: 312px;
+        height: 606px;
+    
+    
+        background-image: url('../assets/bg.png');
+        background-size: 100% 100%;
+        /* resize: inherit; */
+        background-repeat: no-repeat;
+        
+        /* background-attachment: fixed; */
+        /* height: 100%;
+        width: 90%; */
+        /* backgroundColor: '#fafafa', */
+        /* borderRadius: '12px', */
+        margin: 0 auto;
+    }
+    /* background-color: aqua; */
+                            .vedioParent{
+                                 width: 224px;
+                                 height: 509px;
+                                 
+                                 /* margin-left: 15%; */
+
+                                 /* border-Top-Left-Radius:25px; */
+
+
+                                 
+                            }
+    
+}
+
+
+@media (min-width:1600px) {
+    .mobile_background {
+        /* background-Color:orange; */
+        padding-Top: 22px;
+        
+        height: 690px;
+        width: 355px;
+        
+        
+        background-image: url('../assets/bg.png');
+        background-size: 100% 100%;
+        /* resize: inherit; */
+        background-repeat: no-repeat;
+        
+        /* background-attachment: fixed; */
+        /* height: 100%;
+        width: 90%; */
+        /* background-Color: 'red'; */
+        /* borderRadius: '12px', */
+        margin: 0 auto;
+    }
+    .vedioParent{
+        width: 255px;
+        height: 580px;
+ /* margin: '0 auto'; */
+        
+        }
+
+}
+
+@media (min-width:451px) and (max-width:1601px){
+/* @media (min-width:451px) and (max-width:4096px){ */
+
+
+    .mobile_background {
+        /* background-Color:yellow; */
+        padding-Top: 22px;
+        
+        height: 629px;
+        width: 324px;
+        
+        
+        background-image: url('../assets/bg.png');
+        background-size: 100% 100%;
+        /* resize: inherit; */
+        background-repeat: no-repeat;
+        
+        /* background-attachment: fixed; */
+        /* height: 100%;
+        width: 90%; */
+        /* background-Color: 'red'; */
+        /* borderRadius: '12px', */
+        margin: 0 auto;
+    }
+    .vedioParent{
+        width: 232px;
+        height: 528px;
+ /* margin: '0 auto'; */
+        
+        }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:4096px) {
+    .mobile_background {
+        /* background-Color:blue; */
+        padding-Top: 22px;
+        
+        height: 1574px;
+        width: 810px;
+        
+        
+        background-image: url('../assets/bg.png');
+        background-size: 100% 100%;
+        /* resize: inherit; */
+        background-repeat: no-repeat;
+        
+        /* background-attachment: fixed; */
+        /* height: 100%;
+        width: 90%; */
+        /* backgroundColor: '#fafafa', */
+        /* borderRadius: '12px', */
+        margin: 0 auto;
+    }
+    .vedioParent{
+        width: 582px;
+        height: 1322px;
+ /* margin: '0 auto'; */
+        
+        }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading{
+    display: inline;
+    position: absolute important;
+    top: 1;
+    color: aliceblue
+}
+@font-face {
+    font-family: "Side Effects";
+    src: url("../fonts/Side-Effects.ttf");
+    }
+
+.woo_hading{
+    font-family: 'Side Effects' ,Arial, Helvetica, sans-serif
+}

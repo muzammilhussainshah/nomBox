@@ -1,0 +1,32 @@
+.carousel .slide img {
+    max-height: 30px ;  /* change this to whatever you want */
+    width: auto;
+}
+
+.mobile_background {
+background-image: url('../assets/bg.png');
+background-size: 100% 100%;
+/* resize: inherit; */
+background-repeat: no-repeat;
+
+/* background-attachment: fixed; */
+/* height: 100%;
+width: 90%; */
+/* backgroundColor: '#fafafa', */
+/* borderRadius: '12px', */
+margin: 0 auto;
+}
+.heading{
+    display: inline;
+    position: absolute important;
+    top: 1;
+    color: aliceblue
+}
+@font-face {
+    font-family: "Side Effects";
+    src: url("../fonts/Side-Effects.ttf");
+    }
+
+.woo_hading{
+    font-family: 'Side Effects' ,Arial, Helvetica, sans-serif
+}
